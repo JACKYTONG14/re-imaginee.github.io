@@ -1,0 +1,72 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="BMW logo.png"></a>
+            <a href="index.html"><img src="BMW M logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="models.html">Models</a></li>
+                    <li><a href="">Motorsport</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <main>
+            <section class="about">
+                <h1>CONTACT</h1>
+                <a href="" class="hero-btn">CONTACT US</a>
+                <p>We are always glad to help if you have any questions about our customised events. You can contact us Monday to Friday from 8 a.m. to 5 p.m. at the following telephone number or you can send us an email with your enquiry:
+
+ 
+
+                    +49 (0)89 1250 16 444</p>
+                
+
+                <div class="row">
+                    <div class="about-col">
+                        <img src="about us.jpg">
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="footer">
+                <h2>About Us</h2>
+                <p>The BMW M Driving Experience is part of BMW M GmbH. As one of the first providers of driver training courses, <br>it has been thrilling its customers with driving experiences in BMW Group vehicles since 1977. <br>The BMW M Driving Experience currently offers training courses in more than 30 countries, <br>all led by professional instructors and featuring vehicles from BMW, MINI and BMW Motorrad.<br>
+                    Under the slogan “Passion leaves traces”, the BMW M Driving Experience plays an important role in improving driving safety on public roads, <br>while at the same time conveying the joy of driving for which BMW is renowned. <br>The BMW M Driving Experience fulfils its social responsibility with its driver safety courses on asphalt and snow, <br>which give the customers all the basics they need to drive safely and competently.Beyond the regular training courses on offer,<br> the BMW M Driving Experience also places great importance on meeting individual customer desires. A team specialising <br>in corporate events and incentives works closely with the customer to put together packages tailored specifically to the customer’s requirements.
+                </p>
+                <div class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </section>
+        </main>
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        
+        </script>
+    </body>

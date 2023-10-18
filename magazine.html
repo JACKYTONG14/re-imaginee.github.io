@@ -1,0 +1,73 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M Performance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="BMW logo.png"></a>
+            <a href="index.html"><img src="BMW M logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="models.html">Models</a></li>
+                    <li><a href="">Motorsport</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <main>
+            <section class="magazine">
+                <h1>BMW M Magazine</h1>
+
+                <div class="row">
+                    <div class="magazine-col">
+                            <img src="magazine 1.jpg">
+                        <div class="layer">
+                            <a href="https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m-snow-and-ice-experience.html">
+                                <h3>FRESH SNOW, HOT ACTION.</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="magazine-col">
+                        <img src="magazine 2.png">
+                        <div class="layer">
+                            <a href="https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m3-e46-competition-klaus-huber.html">
+                                <h3>M3 Competition.</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="magazine-col">
+                        <img src="magazine 3.png">
+                        <div class="layer">
+                            <a href="https://www.bmw-m.com/en/topics/magazine-article-pool/bmw-m-harman-kardon-bowers-wilkins.html">
+                                <h3>Pure Listening pleasure.</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    </body>
